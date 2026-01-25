@@ -1,0 +1,57 @@
+# Essentiale - Placeholders
+
+Permission requise: `placeholdertale.use`
+
+## Placeholders
+- `%essentiale_home_count%` - Nombre de homes.
+- `%essentiale_home_default%` - Nom du home par defaut.
+- `%essentiale_home_list%` - Liste des homes separee par des virgules.
+- `%essentiale_home_limit%` - Nombre max de homes pour le joueur.
+- `%essentiale_home_limit_left%` - Homes restants.
+- `%essentiale_home_world<home=base>%` - Nom du monde du home.
+- `%essentiale_home_x<home=base>%` - Coordonnee X du home.
+- `%essentiale_home_y<home=base>%` - Coordonnee Y du home.
+- `%essentiale_home_z<home=base>%` - Coordonnee Z du home.
+- `%essentiale_home_yaw<home=base>%` - Yaw du home.
+- `%essentiale_home_pitch<home=base>%` - Pitch du home.
+- `%essentiale_warp_count%` - Nombre de warps.
+- `%essentiale_warp_list%` - Liste des warps separee par des virgules.
+- `%essentiale_warp_accessible_count%` - Nombre de warps accessibles.
+- `%essentiale_warp_accessible_list%` - Liste des warps accessibles separee par des virgules.
+- `%essentiale_warp_world<warp=spawn>%` - Nom du monde du warp.
+- `%essentiale_warp_x<warp=spawn>%` - Coordonnee X du warp.
+- `%essentiale_warp_y<warp=spawn>%` - Coordonnee Y du warp.
+- `%essentiale_warp_z<warp=spawn>%` - Coordonnee Z du warp.
+- `%essentiale_warp_yaw<warp=spawn>%` - Yaw du warp.
+- `%essentiale_warp_pitch<warp=spawn>%` - Pitch du warp.
+- `%essentiale_warp_permission<warp=spawn>%` - Permission du warp.
+- `%essentiale_warp_created_by<warp=spawn>%` - Createur du warp.
+- `%essentiale_spawn_world%` - Nom du monde du spawn.
+- `%essentiale_spawn_x%` - Coordonnee X du spawn.
+- `%essentiale_spawn_y%` - Coordonnee Y du spawn.
+- `%essentiale_spawn_z%` - Coordonnee Z du spawn.
+- `%essentiale_spawn_yaw%` - Yaw du spawn.
+- `%essentiale_spawn_pitch%` - Pitch du spawn.
+- `%essentiale_first_spawn_world%` - Nom du monde du first spawn.
+- `%essentiale_first_spawn_x%` - Coordonnee X du first spawn.
+- `%essentiale_first_spawn_y%` - Coordonnee Y du first spawn.
+- `%essentiale_first_spawn_z%` - Coordonnee Z du first spawn.
+- `%essentiale_first_spawn_yaw%` - Yaw du first spawn.
+- `%essentiale_first_spawn_pitch%` - Pitch du first spawn.
+- `%essentiale_kit_count%` - Nombre de kits.
+- `%essentiale_kit_list%` - Liste des ids de kits separee par des virgules.
+- `%essentiale_kit_display<kit=starter>%` - Nom affiche du kit.
+- `%essentiale_kit_cooldown<kit=starter>%` - Cooldown du kit en secondes.
+- `%essentiale_kit_cooldown_left<kit=starter>%` - Cooldown restant du kit.
+- `%essentiale_kit_onetime<kit=starter>%` - Vrai si le kit est a usage unique.
+- `%essentiale_kit_onetime_claimed<kit=starter>%` - Vrai si le kit a deja ete reclame.
+- `%essentiale_kit_starter<kit=starter>%` - Vrai si le kit est un kit de depart.
+- `%essentiale_kit_replace_inventory<kit=starter>%` - Vrai si le kit remplace l'inventaire.
+- `%essentiale_rtp_cooldown%` - Cooldown RTP restant.
+- `%essentiale_rtp_ready%` - Vrai si le RTP est pret.
+- `%essentiale_back_world%` - Nom du monde de /back.
+- `%essentiale_back_x%` - Coordonnee X de /back.
+- `%essentiale_back_y%` - Coordonnee Y de /back.
+- `%essentiale_back_z%` - Coordonnee Z de /back.
+- `%essentiale_back_yaw%` - Yaw de /back.
+- `%essentiale_back_pitch%` - Pitch de /back.

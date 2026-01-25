@@ -1,0 +1,96 @@
+# Essentiale - Commandes staff
+
+## Partie joueurs
+- `/home [nom]` - Se teleporter vers un home (ou le home par defaut). Permission: `essentiale.command.home`.
+- `/home list` - Lister ses homes. Permission: `essentiale.command.home`.
+- `/home help` - Afficher l'aide des homes. Permission: `essentiale.command.home`.
+- `/homes` - Alias pour lister ses homes. Permission: `essentiale.command.home`.
+- `/sethome <nom>` - Enregistrer sa position comme home. Permission: `essentiale.command.sethome`.
+- `/delhome <nom>` - Supprimer un home. Permission: `essentiale.command.delhome`.
+- `/setdefaulthome <nom>` - Definir le home par defaut. Permission: `essentiale.command.setdefaulthome`.
+- `/warp <nom>` - Se teleporter vers un warp. Permission: `essentiale.command.warp`.
+- `/warp list` - Lister les warps disponibles. Permission: `essentiale.command.warp`.
+- `/warp help` - Afficher l'aide des warps. Permission: `essentiale.command.warp`.
+- `/warps` - Alias pour lister les warps disponibles. Permission: `essentiale.command.warp`.
+- `/spawn` - Se teleporter au spawn. Permission: `essentiale.command.spawn`.
+- `/rules` - Afficher les regles du serveur. Permission: `essentiale.command.rules`.
+- `/tpa <joueur>` - Demander a se teleporter vers un joueur. Permission: `essentiale.command.tpa`.
+- `/tpa accept` - Accepter la derniere demande de teleportation. Permission: `essentiale.command.tpa`.
+- `/tpa deny` - Refuser la derniere demande de teleportation. Permission: `essentiale.command.tpa`.
+- `/tpaccept` - Alias pour accepter une demande de teleportation. Permission: `essentiale.command.tpa`.
+- `/tpdeny` - Alias pour refuser une demande de teleportation. Permission: `essentiale.command.tpa`.
+- `/tpahere <joueur>` - Demander a un joueur de se teleporter vers vous. Permission: `essentiale.command.tpahere`.
+- `/rtp` - Teleportation aleatoire dans le monde courant. Permission: `essentiale.command.rtp`.
+- `/back` - Retourner a la position precedente. Permission: `essentiale.command.back`.
+- `/msg <joueur> <message>` - Envoyer un message prive. Permission: `essentiale.command.msg`.
+- `/reply <message>` - Repondre au dernier message (alias: `/r`). Permission: `essentiale.command.msg`.
+- `/motd` - Afficher le message du jour. Permission: `essentiale.command.motd`.
+- `/kit` - Ouvrir le menu des kits. Permission: `essentiale.command.kit`.
+- `/list` - Lister les joueurs connectes (alias: `/online`, `/who`). Permission: `essentiale.command.list`.
+- `/discord` - Afficher les informations Discord. Permission: `essentiale.command.discord`.
+- `/top` - Se teleporter au point le plus haut du chunk courant. Permission: `essentiale.command.top`.
+
+## Partie admin (commandes + permissions)
+- `/home [nom]` - Se teleporter vers un home (ou le home par defaut). Permission: `essentiale.command.home`.
+- `/home list` - Lister ses homes. Permission: `essentiale.command.home`.
+- `/home help` - Afficher l'aide des homes. Permission: `essentiale.command.home`.
+- `/homes` - Alias pour lister ses homes. Permission: `essentiale.command.home`.
+- `/sethome <nom>` - Enregistrer sa position comme home. Permission: `essentiale.command.sethome`.
+- `/delhome <nom>` - Supprimer un home. Permission: `essentiale.command.delhome`.
+- `/setdefaulthome <nom>` - Definir le home par defaut. Permission: `essentiale.command.setdefaulthome`.
+- `/warp <nom>` - Se teleporter vers un warp. Permission: `essentiale.command.warp`.
+- `/warp list` - Lister les warps disponibles. Permission: `essentiale.command.warp`.
+- `/warp help` - Afficher l'aide des warps. Permission: `essentiale.command.warp`.
+- `/warps` - Alias pour lister les warps disponibles. Permission: `essentiale.command.warp`.
+- `/setwarp <nom> [all|op]` - Definir un warp (permission optionnelle). Permission: `essentiale.command.setwarp`.
+- `/delwarp <nom>` - Supprimer un warp. Permission: `essentiale.command.delwarp`.
+- `/warpadmin` - Lister les warps en mode admin. Permission: `essentiale.command.warpadmin`.
+- `/warpadmin info <nom>` - Infos detaillees d'un warp. Permission: `essentiale.command.warpadmin`.
+- `/warpadmin setperm <nom> <all|op>` - Definir la permission d'un warp. Permission: `essentiale.command.warpadmin`.
+- `/spawn` - Se teleporter au spawn. Permission: `essentiale.command.spawn`.
+- `/setspawn` - Definir le spawn. Permission: `essentiale.command.setspawn`.
+- `/setfirstspawn` - Definir le first spawn. Permission: `essentiale.command.setfirstspawn`.
+- `/delspawn` - Supprimer le spawn. Permission: `essentiale.command.delspawn`.
+- `/rules` - Afficher les regles du serveur. Permission: `essentiale.command.rules`.
+- `/tpa <joueur>` - Demander a se teleporter vers un joueur. Permission: `essentiale.command.tpa`.
+- `/tpa accept` - Accepter la derniere demande de teleportation. Permission: `essentiale.command.tpa`.
+- `/tpa deny` - Refuser la derniere demande de teleportation. Permission: `essentiale.command.tpa`.
+- `/tpaccept` - Alias pour accepter une demande de teleportation. Permission: `essentiale.command.tpa`.
+- `/tpdeny` - Alias pour refuser une demande de teleportation. Permission: `essentiale.command.tpa`.
+- `/tpahere <joueur>` - Demander a un joueur de se teleporter vers vous. Permission: `essentiale.command.tpahere`.
+- `/tp <joueur>` - Se teleporter directement vers un joueur. Permission: `essentiale.command.tp`.
+- `/tphere <joueur>` - Teleporter un joueur vers vous. Permission: `essentiale.command.tphere`.
+- `/rtp` - Teleportation aleatoire. Permission: `essentiale.command.rtp`.
+- `/back` - Retourner a la position precedente. Permission: `essentiale.command.back`.
+- `/msg <joueur> <message>` - Envoyer un message prive. Permission: `essentiale.command.msg`.
+- `/reply <message>` - Repondre au dernier message (alias: `/r`). Permission: `essentiale.command.msg`.
+- `/motd` - Afficher le message du jour. Permission: `essentiale.command.motd`.
+- `/kit` - Ouvrir le menu des kits. Permission: `essentiale.command.kit`.
+- `/kit create <nom> [cooldown]` - Creer un kit depuis l'inventaire. Permission: `essentiale.command.kit.create`.
+- `/kit delete <nom>` - Supprimer un kit. Permission: `essentiale.command.kit.delete`.
+- `/kit give <joueur> <kit>` - Donner un kit a un joueur. Permission: `essentiale.command.kit.give`.
+- `/broadcast <message>` - Envoyer un message global (alias: `/bc`). Permission: `essentiale.command.broadcast`.
+- `/list` - Lister les joueurs connectes (alias: `/online`, `/who`). Permission: `essentiale.command.list`.
+- `/god` - Activer ou desactiver l'invulnerabilite. Permission: `essentiale.command.god`.
+- `/heal` - Restaurer la sante. Permission: `essentiale.command.heal`.
+- `/fly` - Activer ou desactiver le vol. Permission: `essentiale.command.fly`.
+- `/flyspeed <10-100|reset>` - Definir la vitesse de vol. Permission: `essentiale.command.flyspeed`.
+- `/top` - Se teleporter au point le plus haut du chunk courant. Permission: `essentiale.command.top`.
+- `/clearinv` - Vider l'inventaire (alias: `/clearinventory`, `/ci`). Permission: `essentiale.command.clearinv`.
+- `/sleeppercent [pourcentage]` - Definir ou afficher le pourcentage de sommeil. Permission: `essentiale.command.sleeppercent`.
+- `/discord` - Afficher les informations Discord. Permission: `essentiale.command.discord`.
+- `/essentiale reload` - Recharger la config Essentiale (alias: `/ee`). Permission: `essentiale.admin.reload`.
+
+## Permissions supplementaires
+- `essentiale.admin.*` - Donne tous les droits Essentiale (et bypass warmup/cooldown).
+- `essentiale.command.spawn.protection.bypass` - Bypass la protection de spawn.
+- `essentiale.command.rtp.bypass.cooldown` - Bypass le cooldown RTP.
+- `essentiale.command.rtp.bypass.warmup` - Bypass le warmup RTP.
+- `essentiale.command.kit.bypass.cooldown` - Bypass le cooldown des kits.
+- `essentiale.command.home.limit.<n>` - Limite de homes par joueur.
+- `essentiale.command.home.limit.unlimited` - Homes illimites.
+- `essentiale.command.warp.<warp>` - Acces a un warp specifique.
+- `essentiale.command.kit.<kit>` - Acces a un kit specifique.
+- `essentiale.command.rtp.<world>` - Acces RTP par monde.
+- `essentiale.command.back.<world>` - Acces /back par monde.
+- `essentiale.command.back.ondeath` - Autorise l'enregistrement de /back a la mort.

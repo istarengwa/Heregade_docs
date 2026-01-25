@@ -41,6 +41,8 @@
 - `/plot admin info` - Infos admin du plugin. Permission: `plotale.command.admin.info`.
 
 ## Permissions supplementaires
-- `plotale.admin` - Bypass protections (admin plot, flags, etc.).
+- `plotale.admin` - Acces aux commandes admin plots.
+- `plotale.admin.bypass` - Bypass protections (admin plot, flags, fly, etc.).
+- `plotale.admin.roads` - Construire/modifier routes et bordures.
 - `plotale.limit.<n>` - Limite de plots par joueur (ex: `plotale.limit.3`).
 - Permissions de flags definies dans la config (champ `flags.*.permission`).

@@ -46,3 +46,6 @@
 - `plotale.admin.roads` - Construire/modifier routes et bordures.
 - `plotale.limit.<n>` - Limite de plots par joueur (ex: `plotale.limit.3`).
 - Permissions de flags definies dans la config (champ `flags.*.permission`).
+
+## Notes sur les flags
+- `hostile` - Les mobs hostiles reapparaissent sur le plot quand le flag est sur `true`.

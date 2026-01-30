@@ -19,6 +19,9 @@ Le mode sync runtime (depuis `pictures/` en data dir) est optionnel via la confi
 ### Placeholders par image (si active dans config)
 - `%picturtale.rank_icon.vagabond%`
 
+## Menu admin
+- `/pict menu` - Parcourir les dossiers/images et copier un placeholder. Permission: `picturtale.admin.menu`.
+
 ## Notes
 - Les placeholders retournent un chemin du type `Common/Pictures/<dossier>/<image>.png`.
 - Pas d images inline dans le chat; utiliser des UI/menus/notifications.
